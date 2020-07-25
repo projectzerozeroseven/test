@@ -1,5 +1,7 @@
 #!/bin/bash
 
+directory=`pwd`
+echo "$directory \b/$0"
 read -p "ENter your NAme: " name
 read -p "Number of Directories to Create: " n
 
